@@ -14,6 +14,7 @@ query = sys.argv[1]
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 #Can play with different sentence/text lengths
+#ref: https://huggingface.co/tasks/sentence-similarity
 sentences = ['Deep learning is so straightforward.',
     'This is so difficult, like rocket science.',
     'I cannot believe how much I struggled with this.'
