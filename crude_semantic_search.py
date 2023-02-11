@@ -25,7 +25,7 @@ if os.path.exists('./sentence_embeddings.pickled') :
     with open('./sentence_embeddings.pickled', 'rb') as f:
         sentence_embeddings = pickle.load(f)
 else :
-    sentence_embeddings = model.encode(sentences[0:100])
+    sentence_embeddings = model.encode(sentences)
 
     with open('./sentence_embeddings.pickled', 'wb') as f:
          pickle.dump(sentence_embeddings, f)
