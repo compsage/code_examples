@@ -10,7 +10,7 @@ import pickle
 
 query = sys.argv[1]
 
-#Swap out with the model of your choice
+#Swap in with the model of your choice
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 #Can play with different sentence/text lengths
