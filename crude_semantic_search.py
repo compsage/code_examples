@@ -1,4 +1,4 @@
-#python3 cruce_semantic_search.py "Machine learning is so easy."
+#python3 crude_semantic_search.py "Machine learning is so easy."
 
 import json
 import sys
